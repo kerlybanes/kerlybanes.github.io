@@ -2463,7 +2463,7 @@
 /* Header */
 
 	#header {
-		background-color: black;
+		background-color: #441339;
 		background-attachment: scroll,								fixed;
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
@@ -2475,14 +2475,14 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 25%;
 	}
 
 		#header strong, #header b {
 			color: #ffffff;
 		}
 
-		#header h2, #header h3, #header h4, #header h5, #header h6 {
+		#header h3, #header h4, #header h5, #header h6 {
 			color: #ffffff;
 		}
 
@@ -2493,11 +2493,24 @@
 			margin: 0;
 		}
 
+		#header h2 {
+			color: rgba(255, 255, 255, 0.6);
+			font-size: 1.25em;
+			line-height: 1.75em;
+			margin: 0;
+		}
+
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
 		}
 
+		#header p {
+			color: rgba(255, 255, 255, 0.2);
+			font-size: 1em;
+			line-height: 1em;
+			margin: 0;
+		}
 /* Footer */
 
 	#footer {
@@ -2506,7 +2519,7 @@
 		padding: 0 4em 6em 0;
 		position: fixed;
 		text-align: right;
-		width: 35%;
+		width: 25%;
 	}
 
 		#footer .icons {
